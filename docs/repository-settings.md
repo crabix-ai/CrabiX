@@ -1,8 +1,8 @@
 # GitHub Repository Settings
 
-These settings should be applied by a GitHub account with admin access to `crabix-ai/CrabiX`.
+Status: applied and verified on 2026-06-13 with the active `crabix-ai` GitHub account.
 
-The initial content can be pushed with write access, but `gh repo edit` requires repository administration permission.
+This file records the intended public repository settings so future maintainers can audit or reapply them.
 
 ## Desired Metadata
 
@@ -27,6 +27,27 @@ The initial content can be pushed with write access, but `gh repo edit` requires
 - Projects: disabled.
 - Pull requests: squash merge enabled, merge commit disabled, rebase merge disabled.
 - Delete head branches after merge: enabled.
+
+## Verified State
+
+Verified through `gh repo view` and `gh api repos/crabix-ai/CrabiX`:
+
+```json
+{
+  "homepage": "https://crabix.ai",
+  "has_issues": true,
+  "has_discussions": true,
+  "has_projects": false,
+  "has_wiki": false,
+  "allow_squash_merge": true,
+  "allow_merge_commit": false,
+  "allow_rebase_merge": false,
+  "delete_branch_on_merge": true,
+  "permissions": {
+    "admin": true
+  }
+}
+```
 
 ## Suggested Command
 

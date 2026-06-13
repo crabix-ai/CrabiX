@@ -7,6 +7,7 @@ This folder keeps the public repository useful without turning the README into a
 - [Product overview](product.md) - what CrabiX is and where it fits.
 - [Downloads](downloads.md) - release channels, planned assets, and verification guidance.
 - [Release checklist](release-checklist.md) - what must be true before publishing public binaries.
+- [Repository settings](repository-settings.md) - GitHub metadata and admin settings to apply.
 - [Security local-first model](security-local-first.md) - what stays local, what providers still see, and how to report issues.
 - [2026 public repo research](research/2026-public-repo-best-practices.md) - why this repository is structured this way.
 

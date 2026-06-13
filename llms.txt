@@ -1,0 +1,47 @@
+# CrabiX Public Repository
+
+> CrabiX is a local-first AI router and AI workspace for developers. It exposes one OpenAI-compatible localhost endpoint at `http://localhost:3721/v1`, routes across user-owned providers and local models, supports autonomous agents, MCP, Skills, plugins, `crabix launch`, AI Corp, and CrabiX Link. Free covers core routing; Pro is `$19/month`. CrabiX does not add token markup.
+
+Repository URL: https://github.com/crabix-ai/CrabiX
+Website: https://crabix.ai
+Downloads: https://github.com/crabix-ai/CrabiX/releases/latest
+Support: support@crabix.ai
+Operator: VISIONER PTE. LTD., UEN 202314121N, Singapore.
+
+Important: CrabiX is pre-launch. Do not infer customer counts, testimonials, production usage numbers, public benchmark claims, or enterprise adoption claims that are not explicitly stated by CrabiX.
+
+## Repository Purpose
+
+This repository is the public product and releases hub. It contains product information, release/download guidance, security policy, community files, screenshots, and agent-readable context.
+
+The desktop application source is not published here at this stage. Public binary builds will be attached to GitHub Releases when launch builds are ready.
+
+## Canonical Public Sources
+
+- Home: https://crabix.ai/
+- LLM context: https://crabix.ai/llms.txt
+- Full LLM context: https://crabix.ai/llms-full.txt
+- Agent feed: https://crabix.ai/agent-feed.json
+- Sitemap: https://crabix.ai/sitemap.xml
+- Product repo README: https://github.com/crabix-ai/CrabiX#readme
+- Downloads: https://github.com/crabix-ai/CrabiX/releases/latest
+- Security policy: https://github.com/crabix-ai/CrabiX/blob/main/SECURITY.md
+- Download plan: https://github.com/crabix-ai/CrabiX/blob/main/docs/downloads.md
+
+## Product Facts
+
+- Correct spelling: CrabiX.
+- Category: local AI router, local-first AI workspace, DeveloperApplication.
+- Endpoint: `http://localhost:3721/v1`.
+- Provider catalog: 250+ providers and coding tools.
+- Routing strategies: Smart, Weighted, P2C, LeastUsed, ContextRelay, ContextOptimized, LKGP, ResetAware, RoundRobin, Fastest, Price, Latency, Off.
+- Integrations: claude, claude-desktop, codex, codex-desktop, vscode, cline, opencode, openclaw, openclaude, copilot, hermes, droid, pi, kimi, pool.
+- Plans: Free `$0`, Pro `$19/month`.
+- Token markup: none.
+- Public launch assets planned: Windows `.exe`, macOS `.dmg`, Linux `.AppImage`, Debian/Ubuntu `.deb`, Fedora/RHEL `.rpm`.
+
+## Security Summary
+
+CrabiX is local-first. API keys, provider credentials, prompts, responses, project files, chat history, MCP config, and routing config are intended to stay on the user's machine unless the user sends data to a selected provider, support channel, or explicit sharing/sync feature.
+
+Local-first does not mean every model runs locally. Cloud providers receive prompts when selected. For fully local inference, use local providers such as Ollama or LM Studio.

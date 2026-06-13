@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: mailto:support@crabix.ai
+    about: Please do not report vulnerabilities in public issues.
+  - name: Community chat
+    url: https://discord.gg/XTzppGXdNQ
+    about: Ask questions and discuss CrabiX with the community.
+  - name: Website
+    url: https://crabix.ai
+    about: Read product information, pricing, comparisons, and docs.

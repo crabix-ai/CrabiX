@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a public release, download, or documentation problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve CrabiX. Do not use this form for security vulnerabilities; email support@crabix.ai instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Download or release asset
+        - Website link
+        - Documentation
+        - Product copy
+        - Community file
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL or file
+      placeholder: https://crabix.ai/download
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: OS, browser, release version, screenshots, or logs if relevant. Remove secrets first.

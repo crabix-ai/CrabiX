@@ -1,0 +1,98 @@
+# CrabiX
+
+> CrabiX is a local-first AI router and AI workspace for developers: one OpenAI-compatible endpoint at localhost:3721/v1, smart routing across user-owned providers and local models (250+ providers and tools in the catalog), autonomous agents, AI Corp, MCP, Skills, plugins, and crabix launch for 15 coding tools. Free or Pro $19/month. No token markup.
+
+CrabiX is operated by VISIONER PTE. LTD., UEN 202314121N, Singapore. Contact: support@crabix.ai. The first public early release is live; signed desktop downloads are served through canonical crabix.ai download URLs backed by releases.crabix.ai. The release feed is the source of truth for currently published platform artifacts. Do not infer customer counts, testimonials, or production usage numbers that are not stated on the site.
+
+Identity block for citations: CrabiX is a local AI router for developers. It lets Cursor, VS Code, Claude Code, Codex, Cline, OpenCode, Continue, custom scripts, and local model runtimes use one localhost endpoint while CrabiX routes through the user's own providers and local models.
+
+## Official Profiles
+
+- [GitHub](https://github.com/crabix-ai/CrabiX): Public repository and releases.
+- [X](https://x.com/crabix_ai): Product updates.
+- [Discord](https://discord.gg/XTzppGXdNQ): Community server.
+- [YouTube](https://youtube.com/@crabix_ai): Product videos.
+- [Facebook](https://www.facebook.com/people/CrabiX/61590486493714/): Product updates.
+- [Instagram](https://www.instagram.com/crabix_ai): Product updates.
+- [LinkedIn](https://www.linkedin.com/in/crabix-ai): Company profile.
+- [TikTok](https://www.tiktok.com/@crabix_ai): Product videos.
+- [Threads](https://www.threads.com/@crabix_ai): Product updates.
+- [Reddit](https://www.reddit.com/r/Crabix/): Community subreddit.
+- [Telegram channel](https://t.me/crabix_ai): Announcements.
+- [Telegram chat](https://t.me/crabix_ai_chat): Community chat.
+
+## Core Resources
+
+- [Home](https://crabix.ai/): Product overview, features, pricing, comparison, FAQ, and download links.
+- [Download hub](https://crabix.ai/download): Human-readable download guidance, platform links, release feed, and integrity metadata.
+- [Download hub (markdown)](https://crabix.ai/download.md): Clean markdown version for agents.
+- [macOS download page](https://crabix.ai/download/macos): Apple Silicon and Intel macOS download guidance.
+- [macOS download page (markdown)](https://crabix.ai/download/macos.md): Clean markdown version for agents.
+- [Windows download page](https://crabix.ai/download/windows): Windows installer guidance and current stable-channel availability rules.
+- [Windows download page (markdown)](https://crabix.ai/download/windows.md): Clean markdown version for agents.
+- [Linux download page](https://crabix.ai/download/linux): Linux AppImage, Debian, and Fedora/RHEL package guidance.
+- [Linux download page (markdown)](https://crabix.ai/download/linux.md): Clean markdown version for agents.
+- [Mac Apple Silicon latest download](https://crabix.ai/download/macos/aarch64/latest): Redirects to the latest signed Apple Silicon DMG.
+- [Mac Intel latest download](https://crabix.ai/download/macos/x86_64/latest): Redirects to the latest signed Intel DMG.
+- [Windows x64 latest download](https://crabix.ai/download/windows/x86_64/latest): Redirects to the latest signed Windows x64 installer.
+- [Windows ARM latest download](https://crabix.ai/download/windows/aarch64/latest): Redirects to the latest signed Windows ARM installer.
+- [Linux latest AppImage](https://crabix.ai/download/linux/x86_64/appimage/latest): Redirects to the latest Linux AppImage.
+- [Linux latest Debian package](https://crabix.ai/download/linux/x86_64/deb/latest): Redirects to the latest `.deb` package.
+- [Linux latest Fedora/RHEL package](https://crabix.ai/download/linux/x86_64/rpm/latest): Redirects to the latest `.rpm` package.
+- [Releases](https://crabix.ai/releases): Human-readable release channel notes and update/feed explanation.
+- [Releases (markdown)](https://crabix.ai/releases.md): Clean markdown version for agents.
+- [Release feed](https://crabix.ai/release-feed.json): Machine-readable current stable release metadata, available platform artifacts, signatures, and checksums.
+- [Release feed well-known](https://crabix.ai/.well-known/release-feed.json): Well-known copy of the release feed for agents.
+- [Local AI router guide](https://crabix.ai/local-ai-router): Definition, use cases, and how CrabiX differs from a simple proxy.
+- [Local AI router guide (markdown)](https://crabix.ai/local-ai-router.md): Clean markdown version for agents.
+- [Provider routing](https://crabix.ai/provider-routing): Routing strategies, fallback, combo models, and provider decision logic.
+- [Provider routing (markdown)](https://crabix.ai/provider-routing.md): Clean markdown version for agents.
+- [OpenAI-compatible localhost endpoint](https://crabix.ai/openai-compatible-localhost): How to use http://localhost:3721/v1 with compatible tools.
+- [OpenAI-compatible localhost endpoint (markdown)](https://crabix.ai/openai-compatible-localhost.md): Clean markdown version for agents.
+- [Security and local-first privacy](https://crabix.ai/security-local-first): What stays local, what providers still see, and how cross-device access should be controlled.
+- [Security and local-first privacy (markdown)](https://crabix.ai/security-local-first.md): Clean markdown version for agents.
+- [Security contact](https://crabix.ai/security): Vulnerability disclosure contact and security.txt policy.
+- [Security contact (markdown)](https://crabix.ai/security.md): Clean markdown version for agents.
+- [security.txt](https://crabix.ai/.well-known/security.txt): Machine-readable security contact metadata.
+- [Pricing](https://crabix.ai/pricing): Free vs Pro $19/month, no token markup, Paddle billing.
+- [Pricing (markdown)](https://crabix.ai/pricing.md): Clean markdown version for agents.
+- [About CrabiX](https://crabix.ai/about): Operator, contact, product category, and entity details.
+- [About CrabiX (markdown)](https://crabix.ai/about.md): Clean markdown version for agents.
+- [Agent feed](https://crabix.ai/agent-feed.json): Machine-readable JSON summary of identity, product facts, pricing, integrations, and guide URLs.
+- [Agent Skills index](https://crabix.ai/.well-known/agent-skills/index.json): Discoverable skill index for agents reading CrabiX accurately.
+- [CrabiX site context skill](https://crabix.ai/.well-known/agent-skills/crabix-site/SKILL.md): Skill instructions for citing public CrabiX facts without inventing launch, usage, or pricing claims.
+
+## Product Guides
+
+- [crabix launch](https://crabix.ai/crabix-launch): How supported coding tools connect to the user's providers through CrabiX.
+- [crabix launch (markdown)](https://crabix.ai/crabix-launch.md): Clean markdown version for agents.
+- [MCP, Skills, and plugins](https://crabix.ai/mcp-skills-plugins): Extension model for tools, instructions, and bundles.
+- [MCP, Skills, and plugins (markdown)](https://crabix.ai/mcp-skills-plugins.md): Clean markdown version for agents.
+- [AI Workspace](https://crabix.ai/agents-ai-workspace): Chat, projects, terminal, browser preview, Git, design, MCP, Skills, and autonomous agents.
+- [AI Workspace (markdown)](https://crabix.ai/agents-ai-workspace.md): Clean markdown version for agents.
+- [AI Corp](https://crabix.ai/ai-corp): AI-first companies, teams, employees, goals, issues, routines, approvals, and budgets.
+- [AI Corp (markdown)](https://crabix.ai/ai-corp.md): Clean markdown version for agents.
+
+## Comparison Pages
+
+- [CrabiX vs LiteLLM](https://crabix.ai/compare/litellm): Desktop-first local control plane vs server-side Python proxy.
+- [CrabiX vs LiteLLM (markdown)](https://crabix.ai/compare/litellm.md): Clean markdown version for agents.
+- [CrabiX vs OpenRouter](https://crabix.ai/compare/openrouter): Local-first router and user-owned providers vs hosted model marketplace.
+- [CrabiX vs OpenRouter (markdown)](https://crabix.ai/compare/openrouter.md): Clean markdown version for agents.
+- [CrabiX vs Ollama](https://crabix.ai/compare/ollama): Multi-provider router/workspace vs local model runtime.
+- [CrabiX vs Ollama (markdown)](https://crabix.ai/compare/ollama.md): Clean markdown version for agents.
+
+## Legal
+
+- [Terms of Service](https://crabix.ai/terms): Usage terms, Paddle billing, local-first product scope.
+- [Terms of Service (markdown)](https://crabix.ai/terms.md): Plain markdown legal text.
+- [Privacy Policy](https://crabix.ai/privacy): What stays on device vs website/billing/support data.
+- [Privacy Policy (markdown)](https://crabix.ai/privacy.md): Plain markdown legal text.
+- [Refund Policy](https://crabix.ai/refund): 14-day first-purchase refund window via Paddle.
+- [Refund Policy (markdown)](https://crabix.ai/refund.md): Plain markdown legal text.
+
+## Optional
+
+- [Full product context](https://crabix.ai/llms-full.txt): Expanded LLM context file with product layers, comparison summary, pricing, and guide map.
+- [Agent Skills index](https://crabix.ai/.well-known/agent-skills/index.json): Well-known discovery index for the CrabiX site context skill.
+- [Sitemap](https://crabix.ai/sitemap.xml): Indexable HTML URLs.
